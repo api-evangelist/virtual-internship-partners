@@ -1,8 +1,25 @@
 aid: virtual-internship-partners
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virtual-internship-partners.png
 name: Virtual Internship Partners
-description: Virtual Internship Partners is a company surfaced as a portfolio company of 500-global and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Virtual Internships (Virtual Internship Partners) is a global EdTech platform
+  that connects learners, universities, and host companies to deliver guaranteed remote
+  internships across career fields including finance, legal, healthcare, media and communications,
+  supply chain, hospitality, real estate, HR, and sustainability. Backed by 500 Global, it
+  pairs students and graduates with mentored, project-based work experience at companies
+  worldwide. Added to the API Evangelist network from a VC portfolio and enriched by the
+  pipeline; the company publishes a marketing website and a Rank Math llms.txt but exposes
+  no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/virtual-internship-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Internships
+- Careers
+- Workforce
+- Remote Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/virtual-internship-partners-domain-security.yml
 - type: Website
   url: https://virtualinternships.com
+- type: LLMsTxt
+  url: llms/virtual-internship-partners-llms.txt
+- type: Blog
+  url: https://blog.virtualinternships.com
+- type: TermsOfService
+  url: https://www.virtualinternships.com/policies/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.virtualinternships.com/policies/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
